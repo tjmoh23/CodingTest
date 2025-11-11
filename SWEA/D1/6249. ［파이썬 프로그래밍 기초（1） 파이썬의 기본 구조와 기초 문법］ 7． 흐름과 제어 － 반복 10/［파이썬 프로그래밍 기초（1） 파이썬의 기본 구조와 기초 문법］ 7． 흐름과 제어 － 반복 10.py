@@ -5,7 +5,7 @@ count = [0]*10 # [0, 0, 0, ..., 0]
 
 # 입력된 문자열의 각 자리 숫자 세기
 for i in n: # 문자열이라 문자 내용 그대로 들어감
-    count[int(i)]+=1 # 
+    count[int(i)]+=1 # index랑 각 숫자랑 일치
 
 # 0~9 출력
 for i in range(10):
