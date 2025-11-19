@@ -11,7 +11,7 @@ for num in nums:
 
 
 '''
-# 이건 끼워 맞ㅊ기
+# 이건 끼워 맞추기
 a, b = map(int, input().split(','))
  
 def square(a, b):
