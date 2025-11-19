@@ -1,10 +1,9 @@
-a, b = map(int, input().split(','))
+def square(n):
+    return n * n
 
-def square(a, b):
-    sq_a = a**2
-    sq_b = b**2
-    print(f'square({a}) => {sq_a}')
-    print(f'square({b}) => {sq_b}')    
-    return
+# 입력: "2, 3"
+nums = input().split(',')
 
-square(a, b)
+for num in nums:
+    n = int(num.strip())     # 공백 제거 + 정수 변환
+    print(f"square({n}) => {square(n)}")
